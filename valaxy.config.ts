@@ -1,5 +1,6 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
+import { addonComponents } from 'valaxy-addon-components'
 
 // add icons what you will need
 const safelist = [
@@ -11,6 +12,7 @@ const safelist = [
  */
 export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts
+
 
   theme: 'yun',
 
@@ -34,5 +36,9 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
   },
 
+  addons: [
+    addonComponents(),
+  ],
+  
   unocss: { safelist },
 })
