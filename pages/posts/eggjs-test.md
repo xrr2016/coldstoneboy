@@ -64,7 +64,42 @@ it('create 方法返回新增用户成功信息', async () => {
 
 完整的代码
 
-{% include_code lang:javascript user.test.js %}
+```js
+'use strict';
+
+const { app, assert } = require('egg-mock/bootstrap');
+
+describe('用户服务测试', () => {
+
+  let ctx
+
+  before(() => {
+    ctx = app.mockContext({
+      user: {
+        name: 'your-name',
+      },
+    });
+
+    ctx.request.headers = {
+      authorization: yourToken
+    };
+  })
+
+  it('create 方法返回新增用户成功信息', async () => {
+    const data = {
+      name: 'user name' + Date.now(),
+      age: parseInt(Math.random() * 60),
+      gender: Math.random() > .5 ? 'male' : 'female'
+    };
+
+    const response = await ctx.service.user.create(data);
+
+    assert(response.success === true);
+    assert(response.payload.length > 0);
+  });
+
+})
+```
 
 断言返回值的 `success` 为 `true`，`payload` 的 `length` 属性长度大于 0，当然这需要根据具体的业务来写，一个 `service` 可能会有很多的方法，需要尽可能多的对这些方法进行测试。
 
@@ -82,7 +117,7 @@ npm run test <TestFilePath>
 
 运行测试的时候会加载 `config.unittest.js` 里面的配置，运行完毕，没有通过的测试会显示具体的错误信息，可以方便的定位错误，如果测试都通过了就会出现测试通过的以及耗时信息
 
-![test](images/egg-test.jpg)
+![test](/images/egg-test.jpg)
 
 ## 参考
 

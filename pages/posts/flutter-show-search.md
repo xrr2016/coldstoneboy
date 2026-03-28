@@ -19,7 +19,7 @@ cover: https://cdn.pixabay.com/photo/2021/01/21/15/54/books-5937716_960_720.jpg
 最终效果如下
 
 <div>
-  <video src="videos/show_search.mov" controls width="240" autoplay muted loop />
+  <video src="/videos/show_search.mov" controls width="240" autoplay muted loop />
 </div>
 
 创建新项目，初始化代码如下
@@ -163,7 +163,7 @@ Widget buildSuggestions(BuildContext context) {
 }
 ```
 
-<img src="images/search_01.png" width="240" style="width: 240px;">
+<img src="/images/search_01.png" width="240" style="width: 240px;">
 
 然后实现 `buildResults` 和 `buildSuggestions`，这两个方法用来展示搜索页面内容，可以使用不同的部显示，这里使用 `ListView` 部件。
 
@@ -197,11 +197,11 @@ Widget buildSuggestions(BuildContext context) {
 
 搜索结果
 
-<img src="images/search_result.png" width="240" style="width: 240px;">
+<img src="/images/search_result.png" width="240" style="width: 240px;">
 
 搜索建议
 
-<img src="images/search_suggestion.png" width="240" style="width: 240px;">
+<img src="/images/search_suggestion.png" width="240" style="width: 240px;">
 
 
 ## 获取远程数据
@@ -256,7 +256,7 @@ Widget buildResults(BuildContext context) {
 }
 ```
 
-<img src="images/search_server.png" width="240" style="width: 240px;">
+<img src="/images/search_server.png" width="240" style="width: 240px;">
 
 使用 `FutureBuilder` 部件获取了远程的数据，但是遇到一个问题，搜索结果可能是分页显示的，一开始只获取了第一页的数据，想追加下一页数据时需要像 `stateFullWidget` 那样使用 `setState` 方法更新页面，但是在 `SearchDelegate` 里无法使用...暂时没想到解决方法。
 

@@ -16,7 +16,7 @@ cover: https://cdn.pixabay.com/photo/2021/05/14/21/50/elephant-6254558_960_720.j
 
 ## 添加一个 manifest.json 文件
 
-使用 https://app-manifest.firebaseapp.com 来生成博客的 manifest.json 文件，然后将生成出来的文件和图片放到博客的 static 目录，然后在 layout/index.html 的 <head> 标签内引用这个文件
+使用 https://app-manifest.firebaseapp.com 来生成博客的 manifest.json 文件，然后将生成出来的文件和图片放到博客的 static 目录，然后在 layout/index.html 的 `<head>` 标签内引用这个文件
 
 ```html
 <head>

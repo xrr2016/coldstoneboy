@@ -20,7 +20,29 @@ cover: https://cdn.pixabay.com/photo/2020/04/13/22/55/sugar-5040276_960_720.jpg
 
 解答: 实际上是在考察如何判断一个对象上的属性是本身的还是通过继承来的，使用 `hasOwnProperty` 和 `getPrototypeOf` 方法即可
 
-{% include_code lang:javascript get-prototype.js %}
+```js
+function getPrototype(obj, key) {
+  if (obj.hasOwnProperty(key)) {
+    return obj
+  }
+
+  return getPrototype(Object.getPrototypeOf(obj), key)
+}
+
+
+const obj = { a: 'a' }
+const o1 = Object.create(obj)
+o1.b = 'b'
+
+console.log(o1.a) // a
+console.log(o1.b) // b
+
+console.log(o1.hasOwnProperty('a')) // false
+console.log(o1.hasOwnProperty('b')) // true
+
+console.log(getPrototype(o1, 'a')) // { a: 'a' }
+console.log(getPrototype(o1, 'b')) // { b: 'b' }
+```
 
 相关文章
 
@@ -45,7 +67,7 @@ cover: https://cdn.pixabay.com/photo/2020/04/13/22/55/sugar-5040276_960_720.jpg
 
 解答：简单实现了下，看了 Github 上 `URLSearchParams` 的 polyfill 代码，发现这个还是有点复杂的
 
-{% include_code lang:javascript url-search-params.js %}
+请参考项目中的 `url-search-params.js` 文件查看完整代码实现。
 
 相关文章
 

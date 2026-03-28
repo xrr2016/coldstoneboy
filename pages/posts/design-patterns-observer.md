@@ -202,4 +202,3 @@ breakfast.attach(xiaoan)
   Observer Pattern</a> by Cold Stone (<a href="https://codepen.io/xrr2016">@xrr2016</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>

@@ -51,7 +51,7 @@ brew install ffmpeg
 
 Windows 到 `https://ffmpeg.zeranoe.com/builds` 这里下载 zip 包，然后将 `bin` 目录添加到环境变量 `PATH` 中，在命令行中运行 `ffmpeg` 命令，出现提示语即表示安装成功
 
-![hint](images/ffmpeg-hint.jpg)
+![hint](/images/ffmpeg-hint.jpg)
 
 ## 使用
 
@@ -63,7 +63,7 @@ ffmpeg -i input.mp4 output.avi
 
 转换过程中会出现进度提示
 
-![running](images/ffmpeg-running.jpg)
+![running](/images/ffmpeg-running.jpg)
 
 - `frame` 表示是转码所进行到的帧数。
 - `fps` 表示中的 FPS 就是 Frame per Second ，是现在电脑每秒所处理的帧的数量，这个数字跟视频的帧率无关。
@@ -110,7 +110,7 @@ ffmpeg -i input.mp4 -c copy -t 30 output.mp4
 ffmpeg -help
 ```
 
-![video-options](images/ffmpeg-video-opt.jpg)
+![video-options](/images/ffmpeg-video-opt.jpg)
 
 - `-vframes` 设置要输出的视频帧数
 - `-r` 速率设置帧速率（Hz值，分数或缩写）

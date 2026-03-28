@@ -17,7 +17,7 @@ cover: /images/carousel.jpg
 实现的效果如下，当前页面的高度比其它页面高，切换页面的时候有一个高度变化的动画。实现这样的效果主要用到的是 `PageView.builder` 部件。
 
 <div>
-  <video src="videos/heroes.mp4" controls width="320" autoplay muted />
+  <video src="/videos/heroes.mp4" controls width="320" autoplay muted />
 </div>
 
 ## 开发
@@ -121,7 +121,7 @@ _buildItem(activeIndex, index) {
 }
 ```
 
-<img src="images/empty00.jpg" width="320"  style="width: 320px;"/>
+<img src="/images/empty00.jpg" width="320"  style="width: 320px;"/>
 
 ### 添加内容
 

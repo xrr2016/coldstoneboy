@@ -189,7 +189,7 @@ class FadeRoute extends PageRouteBuilder {
 ```
 
 <div>
-  <video src="videos/fade_transition.mov" controls width="320" autoplay muted loop />
+  <video src="/videos/fade_transition.mov" controls width="320" autoplay muted loop />
 </div>
 
 ### `ScaleTransition`
@@ -235,7 +235,7 @@ Navigator.of(context).push(ScaleRoute(SecondPage()));
 ```
 
 <div>
-  <video src="videos/scale_transition.mov" controls width="320" autoplay muted loop />
+  <video src="/videos/scale_transition.mov" controls width="320" autoplay muted loop />
 </div>
 
 ### `RotationTransition`
@@ -277,7 +277,7 @@ Navigator.of(context).push(RotationRoute(SecondPage()));
 ```
 
 <div>
-  <video src="videos/rotation_transition.mov" controls width="320" autoplay muted loop />
+  <video src="/videos/rotation_transition.mov" controls width="320" autoplay muted loop />
 </div>
 
 ### `ScaleRotationRoute`
@@ -324,7 +324,7 @@ Navigator.of(context).push(ScaleRotationRoute(SecondPage()));
 ```
 
 <div>
-  <video src="videos/scale_rotation_transition.mov" controls width="320" autoplay muted loop />
+  <video src="/videos/scale_rotation_transition.mov" controls width="320" autoplay muted loop />
 </div>
 
 ### `TransformRoute`
@@ -370,7 +370,7 @@ Navigator.of(context).push(TransformRoute(SecondPage()));
 ```
 
 <div>
-  <video src="videos/transform_transition.mov" controls width="320" autoplay muted loop />
+  <video src="/videos/transform_transition.mov" controls width="320" autoplay muted loop />
 </div>
 
 ### `EnterExitRoute`
@@ -428,7 +428,7 @@ Navigator.of(context).push(
 ```
 
 <div>
-  <video src="videos/enter_exist_transition.mov" controls width="320" autoplay muted loop />
+  <video src="/videos/enter_exist_transition.mov" controls width="320" autoplay muted loop />
 </div>
 
 ## 使用 `Navigator.pushNamed` 方法跳转

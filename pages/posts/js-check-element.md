@@ -100,7 +100,6 @@ boxes.forEach((box) => {
   js check element in viewport</a> by Cold Stone (<a href="https://codepen.io/xrr2016">@xrr2016</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 
 ## 参考

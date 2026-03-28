@@ -28,7 +28,7 @@ ARG <name>[=<default value>]
 
 ## ENV
 
-Dockerfile 里面的 ENV 指令将环境变量 <key> 设置为值 <value>，这个变量将在构建阶段中所有后续指令的环境中使用。
+Dockerfile 里面的 ENV 指令将环境变量 `<key>` 设置为值 `<value>`，这个变量将在构建阶段中所有后续指令的环境中使用。
 
 ```dockerfile
 ENV <key> <value>
