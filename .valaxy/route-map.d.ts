@@ -559,6 +559,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/projects/': RouteRecordInfo<
+      '/projects/',
+      '/projects',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/tags/': RouteRecordInfo<
       '/tags/',
       '/tags',
@@ -1032,6 +1039,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/understand-link-prexxx.md': {
       routes:
         | '/posts/understand-link-prexxx'
+      views:
+        | never
+    }
+    'pages/projects/index.md': {
+      routes:
+        | '/projects/'
       views:
         | never
     }

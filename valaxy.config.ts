@@ -20,28 +20,17 @@ export default defineValaxyConfig<UserThemeConfig>({
       title: '冷石Boy的小站',
     },
 
+    nav: [
+      { text: '文章', link: '/posts/', icon: 'i-ri-article-line' },
+      { text: '项目', link: '/projects/', icon: 'i-ri-gallery-view' },
+    ],
+
     pages: [
-      // {
-      //   name: '我的小伙伴们',
-      //   url: '/links/',
-      //   icon: 'i-ri-genderless-line',
-      //   color: 'dodgerblue',
-      // },
-      // {
-      //   name: '喜欢的女孩子',
-      //   url: '/girls/',
-      //   icon: 'i-ri-women-line',
-      //   color: 'hotpink',
-      // },
+      { name: '我的项目', url: '/projects/', color: 'var(--va-c-text)', icon: 'i-ri-gallery-view' },
     ],
 
     footer: {
-      since: 2026,
-      beian: {
-        enable: false,
-        icp: '苏ICP备17038157号',
-        police: '苏公网安备xxxxxx号',
-      },
+      since: 2019,
     },
   },
 
