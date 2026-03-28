@@ -856,7 +856,7 @@ require 文件夹，而不是文件
 
 代码必须在所有的环境中是相同的，但是 Npm 默认情况下会拿包的最新版本，配置 .npmrc 锁定依赖版本
 
-```basic
+```bash
 save-exact=true
 ```
 

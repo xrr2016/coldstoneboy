@@ -22,7 +22,7 @@ cover: https://cdn.pixabay.com/photo/2021/02/21/14/37/little-bird-6036530_960_72
 
 转换流程
 
-```pre
+```bash
  _______              ______________
 |       |            |              |
 | input |  demuxer   | encoded data |   decoder

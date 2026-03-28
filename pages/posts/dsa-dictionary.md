@@ -84,7 +84,7 @@ console.log('clear: ', dictionary.count())
 
 输出
 
-```textmate
+```bash
 key: a  value: a
 key: b  value: b
 key: c  value: c
@@ -123,7 +123,7 @@ dictionary.show()
 
 输出
 
-```textmate
+```bash
 key: a  value: a
 key: b  value: b
 key: c  value: c

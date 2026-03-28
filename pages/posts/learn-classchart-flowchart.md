@@ -36,7 +36,7 @@ cover: /images/draw.jpg
 
 一个🌰 [查看](http://www.plantuml.com/plantuml/uml/FO_D2i8m48JlynHxAmZI8eBYGIhU12_Y2uHsRHVo8ytMvtVHj8V0DxERcQJDwYQTWqVkd6Swx9hD_jW0rOMonC4iBv6fIo5mLA2kGFGS9PDae_liLRomuRMiL3M0peWd6jdrFA7iBv9ZNmWgQXNB_AViidkhfBZQHGEF53ZHzaotsJgLJkJJXwtEys2XQu-ZOjWfX5TAzg8ryo_Hsin-_mK0)
 
-```uml
+```
 @startuml
 scale 720*480
 
