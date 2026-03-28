@@ -97,6 +97,181 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/about-manifest': RouteRecordInfo<
+      '/posts/about-manifest',
+      '/posts/about-manifest',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/about-neumorphism': RouteRecordInfo<
+      '/posts/about-neumorphism',
+      '/posts/about-neumorphism',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/about-workbox-strategies': RouteRecordInfo<
+      '/posts/about-workbox-strategies',
+      '/posts/about-workbox-strategies',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/add-pwa-support-to-hugo': RouteRecordInfo<
+      '/posts/add-pwa-support-to-hugo',
+      '/posts/add-pwa-support-to-hugo',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/ali-interview-questions': RouteRecordInfo<
+      '/posts/ali-interview-questions',
+      '/posts/ali-interview-questions',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/centos-install-java8': RouteRecordInfo<
+      '/posts/centos-install-java8',
+      '/posts/centos-install-java8',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/christmas-tree': RouteRecordInfo<
+      '/posts/christmas-tree',
+      '/posts/christmas-tree',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/code-signing': RouteRecordInfo<
+      '/posts/code-signing',
+      '/posts/code-signing',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/code-standard': RouteRecordInfo<
+      '/posts/code-standard',
+      '/posts/code-standard',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/create-privite-npm-server': RouteRecordInfo<
+      '/posts/create-privite-npm-server',
+      '/posts/create-privite-npm-server',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/dart-final-vs-const': RouteRecordInfo<
+      '/posts/dart-final-vs-const',
+      '/posts/dart-final-vs-const',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/das-queue': RouteRecordInfo<
+      '/posts/das-queue',
+      '/posts/das-queue',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/das-tree': RouteRecordInfo<
+      '/posts/das-tree',
+      '/posts/das-tree',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/datastructure-list': RouteRecordInfo<
+      '/posts/datastructure-list',
+      '/posts/datastructure-list',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/design-patterns-observer': RouteRecordInfo<
+      '/posts/design-patterns-observer',
+      '/posts/design-patterns-observer',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/docker-arg-vs-env': RouteRecordInfo<
+      '/posts/docker-arg-vs-env',
+      '/posts/docker-arg-vs-env',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/dsa-dictionary': RouteRecordInfo<
+      '/posts/dsa-dictionary',
+      '/posts/dsa-dictionary',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/dsa-hash': RouteRecordInfo<
+      '/posts/dsa-hash',
+      '/posts/dsa-hash',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/dsa-linklist': RouteRecordInfo<
+      '/posts/dsa-linklist',
+      '/posts/dsa-linklist',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/dsa-set': RouteRecordInfo<
+      '/posts/dsa-set',
+      '/posts/dsa-set',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/dsa-stack': RouteRecordInfo<
+      '/posts/dsa-stack',
+      '/posts/dsa-stack',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/egg-api-dev': RouteRecordInfo<
+      '/posts/egg-api-dev',
+      '/posts/egg-api-dev',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/egg-redis-cache': RouteRecordInfo<
+      '/posts/egg-redis-cache',
+      '/posts/egg-redis-cache',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/egg-sequelize-transaction': RouteRecordInfo<
+      '/posts/egg-sequelize-transaction',
+      '/posts/egg-sequelize-transaction',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/eggjs-test': RouteRecordInfo<
+      '/posts/eggjs-test',
+      '/posts/eggjs-test',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/first-blog': RouteRecordInfo<
       '/posts/first-blog',
       '/posts/first-blog',
@@ -104,9 +279,282 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/hello-valaxy': RouteRecordInfo<
-      '/posts/hello-valaxy',
-      '/posts/hello-valaxy',
+    '/posts/flutter-android-build': RouteRecordInfo<
+      '/posts/flutter-android-build',
+      '/posts/flutter-android-build',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/flutter-animation-decision': RouteRecordInfo<
+      '/posts/flutter-animation-decision',
+      '/posts/flutter-animation-decision',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/flutter-animation-from-zero': RouteRecordInfo<
+      '/posts/flutter-animation-from-zero',
+      '/posts/flutter-animation-from-zero',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/flutter-bar-chart': RouteRecordInfo<
+      '/posts/flutter-bar-chart',
+      '/posts/flutter-bar-chart',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/flutter-carousel': RouteRecordInfo<
+      '/posts/flutter-carousel',
+      '/posts/flutter-carousel',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/flutter-cicd': RouteRecordInfo<
+      '/posts/flutter-cicd',
+      '/posts/flutter-cicd',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/flutter-dropdown-problem': RouteRecordInfo<
+      '/posts/flutter-dropdown-problem',
+      '/posts/flutter-dropdown-problem',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/flutter-generative-artistry-01': RouteRecordInfo<
+      '/posts/flutter-generative-artistry-01',
+      '/posts/flutter-generative-artistry-01',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/flutter-generative-artistry-02': RouteRecordInfo<
+      '/posts/flutter-generative-artistry-02',
+      '/posts/flutter-generative-artistry-02',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/flutter-generative-artistry-03': RouteRecordInfo<
+      '/posts/flutter-generative-artistry-03',
+      '/posts/flutter-generative-artistry-03',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/flutter-github-actions': RouteRecordInfo<
+      '/posts/flutter-github-actions',
+      '/posts/flutter-github-actions',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/flutter-gitlab-pineline': RouteRecordInfo<
+      '/posts/flutter-gitlab-pineline',
+      '/posts/flutter-gitlab-pineline',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/flutter-pie-chart': RouteRecordInfo<
+      '/posts/flutter-pie-chart',
+      '/posts/flutter-pie-chart',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/flutter-provider-todos-01': RouteRecordInfo<
+      '/posts/flutter-provider-todos-01',
+      '/posts/flutter-provider-todos-01',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/flutter-provider-todos-02': RouteRecordInfo<
+      '/posts/flutter-provider-todos-02',
+      '/posts/flutter-provider-todos-02',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/flutter-route-transition': RouteRecordInfo<
+      '/posts/flutter-route-transition',
+      '/posts/flutter-route-transition',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/flutter-show-search': RouteRecordInfo<
+      '/posts/flutter-show-search',
+      '/posts/flutter-show-search',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/flutter-stream': RouteRecordInfo<
+      '/posts/flutter-stream',
+      '/posts/flutter-stream',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/flutter-tinder-card': RouteRecordInfo<
+      '/posts/flutter-tinder-card',
+      '/posts/flutter-tinder-card',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/flutter-tree-2': RouteRecordInfo<
+      '/posts/flutter-tree-2',
+      '/posts/flutter-tree-2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/github-action-publish-flutter-plugin': RouteRecordInfo<
+      '/posts/github-action-publish-flutter-plugin',
+      '/posts/github-action-publish-flutter-plugin',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/how-flutter-render': RouteRecordInfo<
+      '/posts/how-flutter-render',
+      '/posts/how-flutter-render',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/hugo-travis-github-page': RouteRecordInfo<
+      '/posts/hugo-travis-github-page',
+      '/posts/hugo-travis-github-page',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/js-check-element': RouteRecordInfo<
+      '/posts/js-check-element',
+      '/posts/js-check-element',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/js-file-transform': RouteRecordInfo<
+      '/posts/js-file-transform',
+      '/posts/js-file-transform',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/js-intl': RouteRecordInfo<
+      '/posts/js-intl',
+      '/posts/js-intl',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/learn-ast': RouteRecordInfo<
+      '/posts/learn-ast',
+      '/posts/learn-ast',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/learn-classchart-flowchart': RouteRecordInfo<
+      '/posts/learn-classchart-flowchart',
+      '/posts/learn-classchart-flowchart',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/leetcode-1014': RouteRecordInfo<
+      '/posts/leetcode-1014',
+      '/posts/leetcode-1014',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/lol-summoner-power/': RouteRecordInfo<
+      '/posts/lol-summoner-power/',
+      '/posts/lol-summoner-power',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/mysql-getting-start': RouteRecordInfo<
+      '/posts/mysql-getting-start',
+      '/posts/mysql-getting-start',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/npm-peerDependencies': RouteRecordInfo<
+      '/posts/npm-peerDependencies',
+      '/posts/npm-peerDependencies',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/react-context-hooks': RouteRecordInfo<
+      '/posts/react-context-hooks',
+      '/posts/react-context-hooks',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/request-timimg': RouteRecordInfo<
+      '/posts/request-timimg',
+      '/posts/request-timimg',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/selection-and-range': RouteRecordInfo<
+      '/posts/selection-and-range',
+      '/posts/selection-and-range',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/simple-use-ffmpeg': RouteRecordInfo<
+      '/posts/simple-use-ffmpeg',
+      '/posts/simple-use-ffmpeg',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/slate-intro': RouteRecordInfo<
+      '/posts/slate-intro',
+      '/posts/slate-intro',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/two-interview-question': RouteRecordInfo<
+      '/posts/two-interview-question',
+      '/posts/two-interview-question',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/understand-flutter-lifecycle': RouteRecordInfo<
+      '/posts/understand-flutter-lifecycle',
+      '/posts/understand-flutter-lifecycle',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/understand-link-prexxx': RouteRecordInfo<
+      '/posts/understand-link-prexxx',
+      '/posts/understand-link-prexxx',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -191,15 +639,399 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/about-manifest.md': {
+      routes:
+        | '/posts/about-manifest'
+      views:
+        | never
+    }
+    'pages/posts/about-neumorphism.md': {
+      routes:
+        | '/posts/about-neumorphism'
+      views:
+        | never
+    }
+    'pages/posts/about-workbox-strategies.md': {
+      routes:
+        | '/posts/about-workbox-strategies'
+      views:
+        | never
+    }
+    'pages/posts/add-pwa-support-to-hugo.md': {
+      routes:
+        | '/posts/add-pwa-support-to-hugo'
+      views:
+        | never
+    }
+    'pages/posts/ali-interview-questions.md': {
+      routes:
+        | '/posts/ali-interview-questions'
+      views:
+        | never
+    }
+    'pages/posts/centos-install-java8.md': {
+      routes:
+        | '/posts/centos-install-java8'
+      views:
+        | never
+    }
+    'pages/posts/christmas-tree.md': {
+      routes:
+        | '/posts/christmas-tree'
+      views:
+        | never
+    }
+    'pages/posts/code-signing.md': {
+      routes:
+        | '/posts/code-signing'
+      views:
+        | never
+    }
+    'pages/posts/code-standard.md': {
+      routes:
+        | '/posts/code-standard'
+      views:
+        | never
+    }
+    'pages/posts/create-privite-npm-server.md': {
+      routes:
+        | '/posts/create-privite-npm-server'
+      views:
+        | never
+    }
+    'pages/posts/dart-final-vs-const.md': {
+      routes:
+        | '/posts/dart-final-vs-const'
+      views:
+        | never
+    }
+    'pages/posts/das-queue.md': {
+      routes:
+        | '/posts/das-queue'
+      views:
+        | never
+    }
+    'pages/posts/das-tree.md': {
+      routes:
+        | '/posts/das-tree'
+      views:
+        | never
+    }
+    'pages/posts/datastructure-list.md': {
+      routes:
+        | '/posts/datastructure-list'
+      views:
+        | never
+    }
+    'pages/posts/design-patterns-observer.md': {
+      routes:
+        | '/posts/design-patterns-observer'
+      views:
+        | never
+    }
+    'pages/posts/docker-arg-vs-env.md': {
+      routes:
+        | '/posts/docker-arg-vs-env'
+      views:
+        | never
+    }
+    'pages/posts/dsa-dictionary.md': {
+      routes:
+        | '/posts/dsa-dictionary'
+      views:
+        | never
+    }
+    'pages/posts/dsa-hash.md': {
+      routes:
+        | '/posts/dsa-hash'
+      views:
+        | never
+    }
+    'pages/posts/dsa-linklist.md': {
+      routes:
+        | '/posts/dsa-linklist'
+      views:
+        | never
+    }
+    'pages/posts/dsa-set.md': {
+      routes:
+        | '/posts/dsa-set'
+      views:
+        | never
+    }
+    'pages/posts/dsa-stack.md': {
+      routes:
+        | '/posts/dsa-stack'
+      views:
+        | never
+    }
+    'pages/posts/egg-api-dev.md': {
+      routes:
+        | '/posts/egg-api-dev'
+      views:
+        | never
+    }
+    'pages/posts/egg-redis-cache.md': {
+      routes:
+        | '/posts/egg-redis-cache'
+      views:
+        | never
+    }
+    'pages/posts/egg-sequelize-transaction.md': {
+      routes:
+        | '/posts/egg-sequelize-transaction'
+      views:
+        | never
+    }
+    'pages/posts/eggjs-test.md': {
+      routes:
+        | '/posts/eggjs-test'
+      views:
+        | never
+    }
     'pages/posts/first-blog.md': {
       routes:
         | '/posts/first-blog'
       views:
         | never
     }
-    'pages/posts/hello-valaxy.md': {
+    'pages/posts/flutter-android-build.md': {
       routes:
-        | '/posts/hello-valaxy'
+        | '/posts/flutter-android-build'
+      views:
+        | never
+    }
+    'pages/posts/flutter-animation-decision.md': {
+      routes:
+        | '/posts/flutter-animation-decision'
+      views:
+        | never
+    }
+    'pages/posts/flutter-animation-from-zero.md': {
+      routes:
+        | '/posts/flutter-animation-from-zero'
+      views:
+        | never
+    }
+    'pages/posts/flutter-bar-chart.md': {
+      routes:
+        | '/posts/flutter-bar-chart'
+      views:
+        | never
+    }
+    'pages/posts/flutter-carousel.md': {
+      routes:
+        | '/posts/flutter-carousel'
+      views:
+        | never
+    }
+    'pages/posts/flutter-cicd.md': {
+      routes:
+        | '/posts/flutter-cicd'
+      views:
+        | never
+    }
+    'pages/posts/flutter-dropdown-problem.md': {
+      routes:
+        | '/posts/flutter-dropdown-problem'
+      views:
+        | never
+    }
+    'pages/posts/flutter-generative-artistry-01.md': {
+      routes:
+        | '/posts/flutter-generative-artistry-01'
+      views:
+        | never
+    }
+    'pages/posts/flutter-generative-artistry-02.md': {
+      routes:
+        | '/posts/flutter-generative-artistry-02'
+      views:
+        | never
+    }
+    'pages/posts/flutter-generative-artistry-03.md': {
+      routes:
+        | '/posts/flutter-generative-artistry-03'
+      views:
+        | never
+    }
+    'pages/posts/flutter-github-actions.md': {
+      routes:
+        | '/posts/flutter-github-actions'
+      views:
+        | never
+    }
+    'pages/posts/flutter-gitlab-pineline.md': {
+      routes:
+        | '/posts/flutter-gitlab-pineline'
+      views:
+        | never
+    }
+    'pages/posts/flutter-pie-chart.md': {
+      routes:
+        | '/posts/flutter-pie-chart'
+      views:
+        | never
+    }
+    'pages/posts/flutter-provider-todos-01.md': {
+      routes:
+        | '/posts/flutter-provider-todos-01'
+      views:
+        | never
+    }
+    'pages/posts/flutter-provider-todos-02.md': {
+      routes:
+        | '/posts/flutter-provider-todos-02'
+      views:
+        | never
+    }
+    'pages/posts/flutter-route-transition.md': {
+      routes:
+        | '/posts/flutter-route-transition'
+      views:
+        | never
+    }
+    'pages/posts/flutter-show-search.md': {
+      routes:
+        | '/posts/flutter-show-search'
+      views:
+        | never
+    }
+    'pages/posts/flutter-stream.md': {
+      routes:
+        | '/posts/flutter-stream'
+      views:
+        | never
+    }
+    'pages/posts/flutter-tinder-card.md': {
+      routes:
+        | '/posts/flutter-tinder-card'
+      views:
+        | never
+    }
+    'pages/posts/flutter-tree-2.md': {
+      routes:
+        | '/posts/flutter-tree-2'
+      views:
+        | never
+    }
+    'pages/posts/github-action-publish-flutter-plugin.md': {
+      routes:
+        | '/posts/github-action-publish-flutter-plugin'
+      views:
+        | never
+    }
+    'pages/posts/how-flutter-render.md': {
+      routes:
+        | '/posts/how-flutter-render'
+      views:
+        | never
+    }
+    'pages/posts/hugo-travis-github-page.md': {
+      routes:
+        | '/posts/hugo-travis-github-page'
+      views:
+        | never
+    }
+    'pages/posts/js-check-element.md': {
+      routes:
+        | '/posts/js-check-element'
+      views:
+        | never
+    }
+    'pages/posts/js-file-transform.md': {
+      routes:
+        | '/posts/js-file-transform'
+      views:
+        | never
+    }
+    'pages/posts/js-intl.md': {
+      routes:
+        | '/posts/js-intl'
+      views:
+        | never
+    }
+    'pages/posts/learn-ast.md': {
+      routes:
+        | '/posts/learn-ast'
+      views:
+        | never
+    }
+    'pages/posts/learn-classchart-flowchart.md': {
+      routes:
+        | '/posts/learn-classchart-flowchart'
+      views:
+        | never
+    }
+    'pages/posts/leetcode-1014.md': {
+      routes:
+        | '/posts/leetcode-1014'
+      views:
+        | never
+    }
+    'pages/posts/lol-summoner-power/index.md': {
+      routes:
+        | '/posts/lol-summoner-power/'
+      views:
+        | never
+    }
+    'pages/posts/mysql-getting-start.md': {
+      routes:
+        | '/posts/mysql-getting-start'
+      views:
+        | never
+    }
+    'pages/posts/npm-peerDependencies.md': {
+      routes:
+        | '/posts/npm-peerDependencies'
+      views:
+        | never
+    }
+    'pages/posts/react-context-hooks.md': {
+      routes:
+        | '/posts/react-context-hooks'
+      views:
+        | never
+    }
+    'pages/posts/request-timimg.md': {
+      routes:
+        | '/posts/request-timimg'
+      views:
+        | never
+    }
+    'pages/posts/selection-and-range.md': {
+      routes:
+        | '/posts/selection-and-range'
+      views:
+        | never
+    }
+    'pages/posts/simple-use-ffmpeg.md': {
+      routes:
+        | '/posts/simple-use-ffmpeg'
+      views:
+        | never
+    }
+    'pages/posts/slate-intro.md': {
+      routes:
+        | '/posts/slate-intro'
+      views:
+        | never
+    }
+    'pages/posts/two-interview-question.md': {
+      routes:
+        | '/posts/two-interview-question'
+      views:
+        | never
+    }
+    'pages/posts/understand-flutter-lifecycle.md': {
+      routes:
+        | '/posts/understand-flutter-lifecycle'
+      views:
+        | never
+    }
+    'pages/posts/understand-link-prexxx.md': {
+      routes:
+        | '/posts/understand-link-prexxx'
       views:
         | never
     }
