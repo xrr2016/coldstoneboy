@@ -5,7 +5,7 @@ categories:
   - 技术
 tags:
   - Flutter
-cover: ./images/transition.jpg
+cover: /images/transition.jpg
 ---
 
 Flutter 应用进行路由跳转的时候有默认的过渡动画，但是自定义的跳转动画会让应用更具特色

@@ -6,7 +6,7 @@ tags:
   - React
   - Web
 date: 2021-07-29 11:35:57
-cover: ./images/react-context-hooks/cover.jpg
+cover: /images/react-context-hooks/cover.jpg
 ---
 
 最近在项目发现了一些看起来很神奇的代码，一个组件 A 的方法通过 `props` 传到组件 B，然后到组件 C，再到组件 D，再到组件 E，最后到组件 D， 简直是千层饼😂。

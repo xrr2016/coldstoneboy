@@ -5,7 +5,7 @@ categories:
 tags:
   - LOL
 date: 2022-08-29 10:15:51
-cover: ./lol-cover.jpg
+cover: /images/lol-cover.jpg
 ---
 
 研究如何计算一个玩家在对局开始前的战力值
@@ -76,9 +76,9 @@ cover: ./lol-cover.jpg
 
 ## 参考
 
-<img src="./gold.png" width="1106" style="width: 553px" >
+<img src="/images/gold.png" width="1106" style="width: 553px" >
 
-<img src="./pre.png" width="1106" style="width: 553px" >
+<img src="/images/pre.png" width="1106" style="width: 553px" >
 
 
 https://minihat.github.io/LoL-Match-Prediction

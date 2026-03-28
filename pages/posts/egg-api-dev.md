@@ -6,7 +6,7 @@ tags:
   - Node
   - Egg.js
 date: 2019-12-5 20:00:00
-cover: ./images/egg.jpg
+cover: /images/egg.jpg
 ---
 
 总结一下之前用 Egg.js 开发的文件上传接口的任务

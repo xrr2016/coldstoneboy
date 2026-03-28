@@ -5,7 +5,7 @@ categories:
 tags:
   - Flutter
 date: 2020-06-09 14:08:00
-cover: ./images/flutter-pie-chart/cover.png
+cover: /images/flutter-pie-chart/cover.png
 ---
 
 本文讲解如何使用 Flutter 绘制饼状图
@@ -16,7 +16,7 @@ cover: ./images/flutter-pie-chart/cover.png
 
 接上文，本文讲解如何使用 Flutter 绘制饼状图，最终效果如图
 
-<img src="./images/flutter-pie-chart/pie.gif" width="524" style="width: 260px">
+<img src="/images/flutter-pie-chart/pie.gif" width="524" style="width: 260px">
 
 [在线查看](https://dartpad.dartlang.org/b8a2b88647fa75df5d31445a93cb390f)
 
@@ -130,7 +130,7 @@ void paint(Canvas canvas, Size size) {
 }
 ```
 
-<img src="./images/flutter-pie-chart/circle.png" width="520" style="width: 260px">
+<img src="/images/flutter-pie-chart/circle.png" width="520" style="width: 260px">
 
 ## 绘制标识
 
@@ -247,11 +247,11 @@ void paint(Canvas canvas, Size size) {
 
 ```
 
-<img src="./images/flutter-pie-chart/legend.png" width="520" style="width: 260px">
+<img src="/images/flutter-pie-chart/legend.png" width="520" style="width: 260px">
 
 计算文字位置用到的的三角函数是
 
-![angle](./images/flutter-pie-chart/angle.png)
+![angle](/images/flutter-pie-chart/angle.png)
 
 ## 绘制数据对应的弧形
 
@@ -322,7 +322,7 @@ void paint(Canvas canvas, Size size) {
 }
 ```
 
-<img src="./images/flutter-pie-chart/part.png" width="520" style="width: 260px">
+<img src="/images/flutter-pie-chart/part.png" width="520" style="width: 260px">
 
 ## 添加动画
 

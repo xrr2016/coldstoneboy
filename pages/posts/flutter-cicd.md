@@ -7,7 +7,7 @@ tags:
   - Codemagic
   - Google Play
 date: 2020-02-03 22:36:16
-cover: ./images/flutter-cicd/cicd.png
+cover: /images/flutter-cicd/cicd.png
 ---
 
 Codemagic 持续部署 Flutter 应用
@@ -24,7 +24,7 @@ Codemagic 持续部署 Flutter 应用
 
 可以使用 Github 账号注册登录，登录后它会要求获得你仓库的读/写权限，然后在 [apps](https://codemagic.io/apps) 页面显示你需要进行构建的项目。
 
-![code-apps](./images/code-apps.jpg)
+![code-apps](/images/code-apps.jpg)
 
 ## 为什么使用 `Codemagic`
 
@@ -37,13 +37,13 @@ Codemagic 持续部署 Flutter 应用
 
 对于 `Flutter` 项目可以在网页上配置或使用 `codemagic.yaml` 配置文件，其它项目只能使用 `codemagic.yaml` 配置。
 
-![workflow](./images/workflow.jpg)
+![workflow](/images/workflow.jpg)
 
 一个 `Workflow` 由以下几个部分组成
 
 1. `Build triggers` --> 指定的构建分支和触发构建的时机
 
-![build-triggers](./images/build-triggers.jpg)
+![build-triggers](/images/build-triggers.jpg)
 
 2. `Environment variables` --> 设置构建时的环境变量
 
@@ -55,15 +55,15 @@ Codemagic 持续部署 Flutter 应用
 
 4. `Test` --> 执行应用的单元，集成和部件测试，以及静态代码分析
 
-![code-test](./images/code-test.jpg)
+![code-test](/images/code-test.jpg)
 
 5. `Build` --> 配置应用构建时的 Flutter 版本，构建目标，构建参数
 
-![code-build](./images/code-build.jpg)
+![code-build](/images/code-build.jpg)
 
 6. `Publish` --> 选择需要发布应用的目标，这里我选择了 `Google play`
 
-![code-publish](./images/code-publish.jpg)
+![code-publish](/images/code-publish.jpg)
 
 ## 代码签名
 
@@ -82,7 +82,7 @@ Codemagic 持续部署 Flutter 应用
 
 `Service Account` 是给 `CI/CD` 平台发布构建后应用用的，根据指引创建 [Setting up a service account in Google Play Console](https://docs.codemagic.io/publishing/publishing-to-google-play/#setting-up-a-service-account-in-google-play-console)，创建后需做的上传你的凭证 JSON 文件
 
-![code-google-play](./images/code-google-play.jpg)
+![code-google-play](/images/code-google-play.jpg)
 
 ## 注意
 

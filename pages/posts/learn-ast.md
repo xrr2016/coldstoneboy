@@ -7,7 +7,7 @@ tags:
   - Babel
   - ESLint
 date: 2021-04-26 15:40:51
-cover: ./images/learn-ast/ast-cover.jpg
+cover: /images/learn-ast/ast-cover.jpg
 ---
 
 作为一个前端切图仔，工作中少不了用上 Babel，ESLint，Prettier 这些工具，但是这些工具背后的工作原理却不求甚解😅 
@@ -36,11 +36,11 @@ function ask() {
 
 首先它是一个函数声明，函数名称为 `ask` ，函数体内定义了一个常量 answer 值为 42，最后返回 answer。把它输入到一个神奇的网站 [astexplorer](https://astexplorer.net/)，神秘的 `AST` 终于被揭开了面纱。
 
-![ast](./images/learn-ast/ast.jpeg)
+![ast](/images/learn-ast/ast.jpeg)
 
 可以看出 `AST` 就是一个自上而下的树形结构，每一层有一个或多个节点组成，每个节点有一个 `type` 属性表示节点的类型，如 "FunctionDeclaration", "BlockStatement", "VariableDeclaration"，以及节点的其他属性。（节点的类型定义在 [ESTree](https://github.com/estree/estree) 这个仓库，它包括了 es5 到最新的 js 语法定义）。下图可以更清晰的看出这个函数 `AST` 的结构，至此我们对 `AST` 有了初步的认识。
 
-![draw](./images/learn-ast/draw.jpeg)
+![draw](/images/learn-ast/draw.jpeg)
 
 ## 解析
 
@@ -95,7 +95,7 @@ export default function (context) {
 
 效果如下
 
-![params](./images/learn-ast/params.png)
+![params](/images/learn-ast/params.png)
 
 #### 限制嵌套的条件语句
 
@@ -121,7 +121,7 @@ export default function (context) {
 
 ```
 
-![if](./images/learn-ast/if.png)
+![if](/images/learn-ast/if.png)
 
 ## 修改
 
@@ -264,7 +264,7 @@ export default function transformer(file, api) {
 
 ```
 
-![header](./images/learn-ast/header.gif)
+![header](/images/learn-ast/header.gif)
 
 更多示例可查看这个[链接](https://github.com/cpojer/js-codemod/)
 
@@ -299,7 +299,7 @@ console.log(newCode)
 // }
 ```
 
-![gogocode](./images/learn-ast/gogocode.gif)
+![gogocode](/images/learn-ast/gogocode.gif)
 
 ## 总结
 

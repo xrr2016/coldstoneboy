@@ -5,7 +5,7 @@ categories:
 tags:
   - Flutter
 date: 2020-06-18 12:22:08
-cover: ./images/flutter-tinder-card/cover.png
+cover: /images/flutter-tinder-card/cover.png
 ---
 
 前几天写了一个 Fluter 插件 tcard，用来实现类似于探探卡片的布局。
@@ -16,7 +16,7 @@ cover: ./images/flutter-tinder-card/cover.png
 
 前几天写了一个 Fluter 插件 [tcard](https://github.com/xrr2016/tcard)，用来实现类似于探探卡片的布局。效果如下，本文讲解如何使用 `Stack` 控件实现这个布局。
 
-<img src="./images/flutter-tinder-card/images.gif" width="900" style="width: 500px">
+<img src="/images/flutter-tinder-card/images.gif" width="900" style="width: 500px">
 
 [在线查看](https://dartpad.dev/efe152273d6835af5cec6d8f40ab0c58)
 
@@ -124,7 +124,7 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-<img src="./images/flutter-tinder-card/stack.png" width="560" style="width: 280px">
+<img src="/images/flutter-tinder-card/stack.png" width="560" style="width: 280px">
 
 2. 对子控件分别定位并设置其尺寸
 
@@ -207,7 +207,7 @@ class _MyAppState extends State<MyApp> {
 
 ```
 
-<img src="./images/flutter-tinder-card/align.png" width="560" style="width: 280px">
+<img src="/images/flutter-tinder-card/align.png" width="560" style="width: 280px">
 
 3. 更新最前面卡片位置
 
@@ -292,7 +292,7 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-<img src="./images/flutter-tinder-card/pan.gif" width="260" style="width: 280px">
+<img src="/images/flutter-tinder-card/pan.gif" width="260" style="width: 280px">
 
 ## 卡片动画
 
@@ -389,7 +389,7 @@ class _MyAppState extends State<MyApp> with TickerProviderStateMixin {
 }
 ```
 
-<img src="./images/flutter-tinder-card/rebound.gif" width="536" style="width: 280px">
+<img src="/images/flutter-tinder-card/rebound.gif" width="536" style="width: 280px">
 
 3. 卡片换位动画
 
@@ -646,7 +646,7 @@ class _MyAppState extends State<MyApp> with TickerProviderStateMixin {
 }
 ```
 
-<img src="./images/flutter-tinder-card/foward.gif" width="260" style="width: 280px">
+<img src="/images/flutter-tinder-card/foward.gif" width="260" style="width: 280px">
 
 ## 数据更新
 

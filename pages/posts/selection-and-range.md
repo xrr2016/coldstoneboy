@@ -122,7 +122,7 @@ document.addEventListener('selectionchange', event => {
 })
 ```
 
-![right-to-left](./images/selection-and-range/right-to-left.jpg)
+![right-to-left](/images/selection-and-range/right-to-left.jpg)
 
 ### 选择的方法
 

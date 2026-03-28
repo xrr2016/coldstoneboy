@@ -482,8 +482,8 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/lol-summoner-power/': RouteRecordInfo<
-      '/posts/lol-summoner-power/',
+    '/posts/lol-summoner-power': RouteRecordInfo<
+      '/posts/lol-summoner-power',
       '/posts/lol-summoner-power',
       Record<never, never>,
       Record<never, never>,
@@ -969,9 +969,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/lol-summoner-power/index.md': {
+    'pages/posts/lol-summoner-power.md': {
       routes:
-        | '/posts/lol-summoner-power/'
+        | '/posts/lol-summoner-power'
       views:
         | never
     }

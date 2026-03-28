@@ -5,7 +5,7 @@ categories:
 tags:
   - Flutter
 date: 2019-11-20 15:55:26
-cover: ./images/carousel.jpg
+cover: /images/carousel.jpg
 ---
 
 走马灯是一种常见的效果，本文讲一下如何用 `PageView` 在 `Flutter` 里实现一个走马灯

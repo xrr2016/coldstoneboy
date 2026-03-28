@@ -6,7 +6,7 @@ tags:
   - Flutter
   - Animation
 date: 2020-05-07 10:04:58
-cover: ./images/flutter-animation-decision/level.png
+cover: /images/flutter-animation-decision/level.png
 ---
 
 如何在 Flutter 中选择合适的动画 Widget 中文翻译
@@ -20,11 +20,11 @@ Flutter 团队推出了一个关于 [如何在 Flutter 中选择合适的动画 
 
 ## 英文版
 
-![animation-decision-tree](./images/flutter-animation-decision/animation-decision-tree.png)
+![animation-decision-tree](/images/flutter-animation-decision/animation-decision-tree.png)
 
 ## 中文版
 
-![animation-decision-tree-zh](./images/flutter-animation-decision/animation-decision-tree-zh.png)
+![animation-decision-tree-zh](/images/flutter-animation-decision/animation-decision-tree-zh.png)
 
 
 ## 参考

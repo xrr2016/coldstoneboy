@@ -6,7 +6,7 @@ tags:
   - Flutter
   - Generative artistry
 date: 2020-09-17 21:28:44
-cover: ./images/flutter-generative-artistry-03/cover.png
+cover: /images/flutter-generative-artistry-03/cover.png
 ---
 
 本文讲解使用 Flutter 实现 Generative Artistry 教程里面的第六个图形 Circle Packing（圆形填充）
@@ -142,7 +142,7 @@ void paint(Canvas canvas, Size size) {
 
 噔噔噔，一团乱麻！
 
-<img src="./images/flutter-generative-artistry-03/mess.png" width="640" style="width: 320px">
+<img src="/images/flutter-generative-artistry-03/mess.png" width="640" style="width: 320px">
 
 ## 碰撞检测
 
@@ -176,7 +176,7 @@ bool _doesHaveCollision(Circle circle, Size size) {
 }
 ```
 
-<img src="./images/flutter-generative-artistry-03/collision.png" width="640" style="width: 320px">
+<img src="/images/flutter-generative-artistry-03/collision.png" width="640" style="width: 320px">
 
 最后需要做的是在创建圆形之前的检测，更新创建圆形的方法 `_createCircles`。
 
@@ -223,7 +223,7 @@ void _createCircles(Canvas canvas, Size size) {
 
 大功告成 🎉
 
-<img src="./images/flutter-generative-artistry-03/finish.png" width="640" style="width: 320px">
+<img src="/images/flutter-generative-artistry-03/finish.png" width="640" style="width: 320px">
 
 最终代码
 

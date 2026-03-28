@@ -6,7 +6,7 @@ tags:
   - Flutter
   - Animation
 date: 2020-04-26 20:00:00
-cover: ./images/flutter-animation-from-zero/cover.png
+cover: /images/flutter-animation-from-zero/cover.png
 ---
 
 Flutter 中的动画
@@ -27,7 +27,7 @@ Flutter 中的动画
 
 Flutter 中有多种类型的动画，先从一个简单的例子开始，使用一个 `AnimatedContainer` 控件，然后设置动画时长 `duration`，最后调用 `setState` 方法改变需要变化的属性值，一个动画就创建了。
 
-<img src="./images/flutter-animation-from-zero/animated-container.gif" alt="animated-container" style="width: 240px;" width="240">
+<img src="/images/flutter-animation-from-zero/animated-container.gif" alt="animated-container" style="width: 240px;" width="240">
 
 代码如下
 
@@ -175,7 +175,7 @@ Ticker ticker = Ticker(callback);
 
 比如 `AnimatedOpacity` 部件，改变它的 `opacity` 值就可以触发动画。
 
-<img src="./images/flutter-animation-from-zero/opacity-toggle.gif" alt="opacity-toggle" style="width: 240px;" width="240">
+<img src="/images/flutter-animation-from-zero/opacity-toggle.gif" alt="opacity-toggle" style="width: 240px;" width="240">
 
 ```dart
 import 'package:flutter/material.dart';
@@ -226,7 +226,7 @@ class _OpacityChangePageState extends State<OpacityChangePage> {
 
 显式动画指的是需要手动设置动画的时间，运动曲线，取值范围的动画。将值传递给动画部件如: `RotationTransition`，最后使用一个`AnimationController` 控制动画的开始和结束。
 
-<img src="./images/flutter-animation-from-zero/explicit-animation.gif" alt="explicit-animation" style="width: 240px;" width="240">
+<img src="/images/flutter-animation-from-zero/explicit-animation.gif" alt="explicit-animation" style="width: 240px;" width="240">
 
 ```dart
 import 'dart:math';
@@ -310,7 +310,7 @@ class _RotationAinmationPageState extends State<RotationAinmationPage>
 
 Hero 动画指的是在页面切换时一个元素从旧页面运动到新页面的动画。Hero 动画需要使用两个 `Hero` 控件实现：一个用来在旧页面中，另一个在新页面。两个 `Hero` 控件需要使用相同的 `tag` 属性，并且不能与其他`tag`重复。
 
-<img src="./images/flutter-animation-from-zero/hero-animation.gif" alt="hero-animation" style="width: 240px;" width="240">
+<img src="/images/flutter-animation-from-zero/hero-animation.gif" alt="hero-animation" style="width: 240px;" width="240">
 
 ```dart
 // 页面 1
@@ -435,11 +435,11 @@ class Interval extends Curve {
 
 ```
 
-<img src="./images/flutter-animation-from-zero/staggered-animation.gif" alt="staggered-animation" style="width: 240px;" width="240">
+<img src="/images/flutter-animation-from-zero/staggered-animation.gif" alt="staggered-animation" style="width: 240px;" width="240">
 
 这是一个由 5 个小动画组成的交织动画，宽度，高度，颜色，圆角，边框，每个动画都有自己的动画区间。
 
-![staggered-animation-timeline](./images/flutter-animation-from-zero/staggered-animation-timeline.png)
+![staggered-animation-timeline](/images/flutter-animation-from-zero/staggered-animation-timeline.png)
 
 ```dart
 import 'package:flutter/material.dart';
@@ -579,7 +579,7 @@ class _StaggeredAnimationPageState extends State<StaggeredAnimationPage>
 
 物理动画是一种模拟现实世界物体运动的动画。需要建立物体的运动模型，以一个物体下落为例，这个运动受到物体的下落高度，重力加速度，地面的反作用力等因素的影响。
 
-<img src="./images/flutter-animation-from-zero/throw-animation.gif" alt="throw-animation" style="width: 240px;" width="240">
+<img src="/images/flutter-animation-from-zero/throw-animation.gif" alt="throw-animation" style="width: 240px;" width="240">
 
 ```dart
 import 'package:flutter/material.dart';

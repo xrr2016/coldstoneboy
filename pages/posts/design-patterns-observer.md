@@ -5,7 +5,7 @@ categories:
 tags:
   - Design Patterns
 date: 2020-10-20 22:00:00
-cover: ./images/design-patterns-observer/cover.png
+cover: /images/design-patterns-observer/cover.png
 ---
 
 观察者模式是一种行为设计模式，允许你定义一种订阅机制，可在对象事件发生时通知多个 “观察” 该对象的对象。
@@ -195,7 +195,7 @@ breakfast.attach(xiaoan)
 
 当早餐发生变化时，不同类型的人会根据不同的早餐产生不同的情绪。
 
-![breakfrast](./images/design-patterns-observer/breakfast.gif)
+![breakfrast](/images/design-patterns-observer/breakfast.gif)
 
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="xrr2016" data-slug-hash="xxOEqJK" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Observer Pattern">
   <span>See the Pen <a href="https://codepen.io/xrr2016/pen/xxOEqJK">

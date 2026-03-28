@@ -6,7 +6,7 @@ tags:
   - PlantUML
   - Flowchart
 date: 2020-03-26 10:00:00
-cover: ./images/draw.jpg
+cover: /images/draw.jpg
 ---
 
 学习 `PlantUML`
@@ -136,7 +136,7 @@ Comment --> Visitor : 游客可以浏览评论
 @enduml
 ```
 
-![blog](./images/learn-chart/class.png)
+![blog](/images/learn-chart/class.png)
 
 ## Flowchart
 
@@ -182,7 +182,7 @@ handsome(yes)->rich->ge
 handsome(no)->be
 ```
 
-![start](./images/learn-chart/flow.png)
+![start](/images/learn-chart/flow.png)
 
 ## 参考
 

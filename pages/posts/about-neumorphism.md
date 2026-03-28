@@ -6,7 +6,7 @@ categories:
 tags:
   - Flutter
 date: 2021-09-23 20:30:19
-cover: ./images/about-neumorphism/cover.jpg
+cover: /images/about-neumorphism/cover.jpg
 ---
 
 前段时间发现了一种叫新拟物的 UI 设计 Neumorphism，感觉很新鲜。于是研究的一番，本文将分享新拟物设计的相关知识。

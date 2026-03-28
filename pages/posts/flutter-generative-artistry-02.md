@@ -6,7 +6,7 @@ tags:
   - Flutter
   - Generative artistry
 date: 2020-07-14 17:56:19
-cover: ./images/flutter-generative-artistry-02/cover.png
+cover: /images/flutter-generative-artistry-02/cover.png
 ---
 
 本文实现 Generative Artistry 教程的第 4 篇图形 Triangular mesh 效果如下
@@ -17,7 +17,7 @@ cover: ./images/flutter-generative-artistry-02/cover.png
 
 本文实现 [Generative Artistry](https://generativeartistry.com/tutorials/) 教程的第 4 篇图形 Triangular mesh 效果如下。
 
-<img src="./images/flutter-generative-artistry-02/colors.png" width="580" style="width: 290px">
+<img src="/images/flutter-generative-artistry-02/colors.png" width="580" style="width: 290px">
 
 没按顺序来，因为第二篇 Joy Division 我还没实现 😝
 
@@ -76,7 +76,7 @@ class TriangularMeshPainter extends CustomPainter {
 }
 ```
 
-<img src="./images/flutter-generative-artistry-02/circle.png" width="580" style="width: 290px">
+<img src="/images/flutter-generative-artistry-02/circle.png" width="580" style="width: 290px">
 
 创建一个 `Point` 类，表示一个绘制的圆点。
 
@@ -121,7 +121,7 @@ void paint(Canvas canvas, Size size) {
 }
 ```
 
-<img src="./images/flutter-generative-artistry-02/odd.png" width="580" style="width: 290px">
+<img src="/images/flutter-generative-artistry-02/odd.png" width="580" style="width: 290px">
 
 ## 绘制网格
 
@@ -174,7 +174,7 @@ void paint(Canvas canvas, Size size) {
 }
 ```
 
-<img src="./images/flutter-generative-artistry-02/triangle.png" width="580" style="width: 290px">
+<img src="/images/flutter-generative-artistry-02/triangle.png" width="580" style="width: 290px">
 
 创建圆点时加入随机量，形成不规则的三角形。
 
@@ -188,7 +188,7 @@ for (double x = gap / 4; x <= size.width; x += gap) {
 }
 ```
 
-<img src="./images/flutter-generative-artistry-02/random.png" width="580" style="width: 290px">
+<img src="/images/flutter-generative-artistry-02/random.png" width="580" style="width: 290px">
 
 ## 添加颜色
 
@@ -225,9 +225,9 @@ void _drawTriangle(Canvas canvas, Point pointA, Point pointB, Point pointC) {
 
 大功告成！👏
 
-<img src="./images/flutter-generative-artistry-02/black.png" width="580" style="width: 290px">
+<img src="/images/flutter-generative-artistry-02/black.png" width="580" style="width: 290px">
 
-<img src="./images/flutter-generative-artistry-02/colors.png" width="580" style="width: 290px">
+<img src="/images/flutter-generative-artistry-02/colors.png" width="580" style="width: 290px">
 
 [代码地址](https://github.com/xrr2016/flutter-generative-artistry/blob/master/lib/graphs/triangular_mesh.dart)
 

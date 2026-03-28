@@ -8,7 +8,7 @@ tags:
   - Blob 
   - Base64
 date: 2021-04-01 17:52:22
-cover: ./images/js-file-transform/cover.jpg
+cover: /images/js-file-transform/cover.jpg
 ---
 
 

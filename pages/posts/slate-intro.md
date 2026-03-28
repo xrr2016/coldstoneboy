@@ -6,7 +6,7 @@ tags:
   - Web
   - Rich Editor
 date: 2020-12-13 22:21:01
-cover: ./images/slate-intro/cover.jpg
+cover: /images/slate-intro/cover.jpg
 ---
 
 Slate 是一个使用 TypeScript 开发富文本编辑器开发框架，诞生于 2016 年。

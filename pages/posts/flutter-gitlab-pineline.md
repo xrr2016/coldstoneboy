@@ -6,7 +6,7 @@ tags:
   - Flutter
   - Gitlib
 date: 2020-02-27 11:01:00
-cover: ./images/samuel-chenard.jpg
+cover: /images/samuel-chenard.jpg
 ---
 
 本文介绍如何使用 Gitlib CI/CD 构建发布 Flutter 应用
@@ -107,11 +107,11 @@ release:
 
 发布还需要一个 `Personal Access Token` 给 release 任务提供 api 权限，有了 api 权限就可以请求 Gitlab 的 release 接口上传 apk 了
 
-![token](./images/gitlib-token.jpg)
+![token](/images/gitlib-token.jpg)
 
 使用刚才创建的 token 在项目仓库里配置流水线的环境变量 `GITLAB_ACCESS_TOKEN`
 
-![var](./images/gitlab-variable.jpg)
+![var](/images/gitlab-variable.jpg)
 
 最后创建一个版本标签推送到 Gitlab 仓库，就可以看到运行中的流水线了
 
@@ -121,11 +121,11 @@ git tag v1.0.0
 git push --tag
 ```
 
-![var](./images/gitlib-pineline.jpg)
+![var](/images/gitlib-pineline.jpg)
 
 流水线运行完毕，一个版本发布成功。
 
-![var](./images/gitlib-release.jpg)
+![var](/images/gitlib-release.jpg)
 
 ## 上传
 
@@ -152,11 +152,11 @@ upload:
 
 `$PGY_API_KEY` 是蒲公英平台的 `API Key`，需要添加到 `CI/CD` 的环境变量中
 
-![api-key](./images/pgy-api-key.png)
+![api-key](/images/pgy-api-key.png)
 
 在仓库的设置那里添加新的环境变量
 
-![variable](./images/gitlab-pgy-variable.png)
+![variable](/images/gitlab-pgy-variable.png)
 
 
 

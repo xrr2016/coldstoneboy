@@ -17,11 +17,11 @@ cover: https://cdn.pixabay.com/photo/2020/06/15/09/30/butterfly-5301066_960_720.
 
 问题一：在 `showModalBottomSheet` 里面使用 `DropdownButton` 改变选择后界面不变化。
 
-![no-change](./images/flutter-dropdown-problem/dropdown-no-change.gif)
+![no-change](/images/flutter-dropdown-problem/dropdown-no-change.gif)
 
 但是 `onChanged` 事件已经触发
 
-![console](./images/flutter-dropdown-problem/console.png)
+![console](/images/flutter-dropdown-problem/console.png)
 
 代码如下
 ```dart
@@ -125,7 +125,7 @@ showModalBottomSheet(
 
 问题二：当多个 `DropdownMenuItem` 值相同时会报错
 
-![crash](./images/flutter-dropdown-problem/crash.png)
+![crash](/images/flutter-dropdown-problem/crash.png)
 
 这个报错产生的原因是这里的 `DropdownMenuItem` 是请求后端接口后会生成很多选项，如果设置了 `DropdownButton` 的 `value` 值，那么 `DropdownMenuItem` 就会有相同的值，出现这个错误。
 

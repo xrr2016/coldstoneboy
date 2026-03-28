@@ -5,7 +5,7 @@ categories:
 tags:
   - Flutter
 date: 2020-04-13 12:07:56
-cover: ./images/flutter-stream/stream.png
+cover: /images/flutter-stream/stream.png
 ---
 
 在 Flutter 中有两种处理异步操作的方式 `Future` 和 `Stream`，`Future` 用于处理单个异步操作，`Stream` 用来处理连续的异步操作
@@ -16,7 +16,7 @@ cover: ./images/flutter-stream/stream.png
 
 在 Flutter 中有两种处理异步操作的方式 `Future` 和 `Stream`，`Future` 用于处理单个异步操作，`Stream` 用来处理连续的异步操作。比如往水杯倒水，将一个水杯倒满为一个 `Future`，连续的将多个水杯倒满就是 `Stream`。
 
-![water-fill](./images/flutter-stream/water-fill.png)
+![water-fill](/images/flutter-stream/water-fill.png)
 
 
 ## Stream 详解
@@ -173,7 +173,7 @@ Stream _futuresStream = Stream.fromFutures(futures);
 
 把 Flutter 的默认项目改用 `Stream` 实现
 
-<img src="./images/flutter-stream/stream-counter.gif" width="320" style="width: 320px;">
+<img src="/images/flutter-stream/stream-counter.gif" width="320" style="width: 320px;">
 
 ```dart
 import 'dart:async';
@@ -293,7 +293,7 @@ dependencies:
   connectivity: ^0.4.8+2
 ```
 
-<img src="./images/flutter-stream/network-status.gif" width="320" style="width: 320px;">
+<img src="/images/flutter-stream/network-status.gif" width="320" style="width: 320px;">
 
 ```dart
 import 'dart:async';
@@ -416,7 +416,7 @@ dependencies:
   flutter_html: ^0.11.1
 ```
 
-<img src="./images/flutter-stream/random-article.gif" width="320" style="width: 320px;">
+<img src="/images/flutter-stream/random-article.gif" width="320" style="width: 320px;">
 
 ```dart
 import 'dart:async';
@@ -510,7 +510,7 @@ class _RandomArticleState extends State<RandomArticle> {
 
 使用广播流
 
-<img src="./images/flutter-stream/broadcast-stream.gif" width="320" style="width: 320px;">
+<img src="/images/flutter-stream/broadcast-stream.gif" width="320" style="width: 320px;">
 
 ```dart
 import 'dart:async';

@@ -5,7 +5,7 @@ categories:
 tags:
   - Flutter
 date: 2020-04-03 12:40:04
-cover: ./images/how-flutter-render/cover.jpg
+cover: /images/how-flutter-render/cover.jpg
 ---
 
 总结一下关于 Flutter 渲染方面的知识
@@ -60,7 +60,7 @@ abstract class Widget extends DiagnosticableTree {
 
 `Element` 用于管理应用 UI 的更新和更改，管理部件的生命周期，每个 `Element` 都包含对 `Widget` 和 `RenderObject` 的引用。
 
-![relationship](./images/how-flutter-render/relationship.png)
+![relationship](/images/how-flutter-render/relationship.png)
 
 当 `Widget` 变化时，如果两个 `Widget` 的 `runtimeType` 和 `key` 属性相同的，那么新的 `Element` 会通过 `Element.update()` 更新旧的 `Element`，否则旧的 `Element` 会被删除，新生成的 `Element` 插入到树中。
 
@@ -226,19 +226,19 @@ class _HomePageState extends State<HomePage> {
 
 显示效果
 
-<img src="./images/how-flutter-render/simulator-world.png" style="width: 320px;">
+<img src="/images/how-flutter-render/simulator-world.png" style="width: 320px;">
 
 打开 [Dart DevTools](http://127.0.0.1:9100)，可以看到应用的 `Widget Tree`，此时 `RichText` 控件的 `RenderObject` 的 ID 是 `#6276a`
 
-![world-id](./images/how-flutter-render/world-id.png)
+![world-id](/images/how-flutter-render/world-id.png)
 
 点击图标将文字变成 `Hello flutter` 时
 
-<img src="./images/how-flutter-render/simulator-flutter.png" style="width: 320px;">
+<img src="/images/how-flutter-render/simulator-flutter.png" style="width: 320px;">
 
 刷新浏览器页面再次查看 `RichText` 的 `RenderObject` 的 ID 依然是 `#6276a`
 
-![flutter-id](./images/how-flutter-render/flutter-id.png)
+![flutter-id](/images/how-flutter-render/flutter-id.png)
 
 可以发现 Flutter 只是更新了文字数据，复用了 `RichText` 对应的 `Element` 和 `RenderObject`。
 
@@ -268,11 +268,11 @@ Widget build(BuildContext context) {
 }
 ```
 
-![padding](./images/how-flutter-render/padding.png)
+![padding](/images/how-flutter-render/padding.png)
 
 `Padding` 部件对应的  `Element` 和 `RenderObject` 都会被从树中移除，使用 `SizedBox` 新生成的替代。
 
-![sizeedbox](./images/how-flutter-render/sizeedbox.png)
+![sizeedbox](/images/how-flutter-render/sizeedbox.png)
 
 ## 总结
 
@@ -280,7 +280,7 @@ Widget build(BuildContext context) {
 `Element` 链接 `Widget` 和 `RenderObject`，管理界面的更新和修改。
 `RenderObject` 保存具体的布局信息，负责绘制 UI。
 
-![widget-element-render-object](./images/how-flutter-render/widget-element-render-object.png)
+![widget-element-render-object](/images/how-flutter-render/widget-element-render-object.png)
 
 ## 参考
 

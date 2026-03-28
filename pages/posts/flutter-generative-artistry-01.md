@@ -6,7 +6,7 @@ tags:
   - Flutter
   - Generative artistry
 date: 2020-07-07 16:20:50
-cover: ./images/flutter-generative-artistry-01/cover.png
+cover: /images/flutter-generative-artistry-01/cover.png
 ---
 
 
@@ -19,7 +19,7 @@ cover: ./images/flutter-generative-artistry-01/cover.png
 前几天发现了一个使用 `<canvas>` 绘制图形的教程 [generative artistry
 ](https://generativeartistry.com/tutorials/) 感觉很有意思，尝试用 Flutter 实现。本文实现第一篇教程的图形 Tiled Lines 效果如下。
 
-<img src="./images/flutter-generative-artistry-01/tiled-lines.png" width="580" style="width: 290px">
+<img src="/images/flutter-generative-artistry-01/tiled-lines.png" width="580" style="width: 290px">
 
 ## 创建画布
 
@@ -61,7 +61,7 @@ class TiledLinesPainter extends CustomPainter {
 
 ```
 
-<img src="./images/flutter-generative-artistry-01/container.png" width="580" style="width: 290px">
+<img src="/images/flutter-generative-artistry-01/container.png" width="580" style="width: 290px">
 
 ## 绘制线条
 
@@ -95,7 +95,7 @@ class TiledLinesPainter extends CustomPainter {
 }
 ```
 
-<img src="./images/flutter-generative-artistry-01/line.png" width="580" style="width: 290px">
+<img src="/images/flutter-generative-artistry-01/line.png" width="580" style="width: 290px">
 
 ## 加入随机性
 
@@ -130,7 +130,7 @@ void _drawLine(
 }
 ```
 
-<img src="./images/flutter-generative-artistry-01/line2.png" width="580" style="width: 290px">
+<img src="/images/flutter-generative-artistry-01/line2.png" width="580" style="width: 290px">
 
 ## 绘制更多的线条
 
@@ -186,7 +186,7 @@ class TiledLinesPainter extends CustomPainter {
 TiledLinesPainter(20)
 ```
 
-<img src="./images/flutter-generative-artistry-01/step.png" width="580" style="width: 290px">
+<img src="/images/flutter-generative-artistry-01/step.png" width="580" style="width: 290px">
 
 ## 绘制边框和阴影
 
@@ -292,7 +292,7 @@ class TiledLinesPainter extends CustomPainter {
 
 ```
 
-<img src="./images/flutter-generative-artistry-01/tiled-lines.png" width="580" style="width: 290px">
+<img src="/images/flutter-generative-artistry-01/tiled-lines.png" width="580" style="width: 290px">
 
 ## 参考
 

@@ -6,7 +6,7 @@ tags:
   - Flutter
   - Github Actions
 date: 2020-02-27 01:59:06
-cover: ./images/flutter-action-sm.jpg
+cover: /images/flutter-action-sm.jpg
 ---
 
 本文讲解如何使用 Github Actions 构建并发布 Flutter 应用
@@ -57,7 +57,7 @@ cover: ./images/flutter-action-sm.jpg
 
 下面用一个示例项目来说明如何使用 Github Actions 发布 Flutter 应用，先放成果 [地址](https://github.com/xrr2016/flutter-github-gitlab/releases)
 
-![main.yml](./images/flutter-release.jpg)
+![main.yml](/images/flutter-release.jpg)
 
 1. 首先创建一个 Flutter 项目
 
@@ -67,7 +67,7 @@ flutter create flutter_github_actions
 
 2. 添加一个配置文件 `.github/workflows/main.yml`
 
-![main.yml](./images/main-yml.jpg)
+![main.yml](/images/main-yml.jpg)
 
 3. 配置工作流程，将代码推送到 Github
 
@@ -123,13 +123,13 @@ jobs:
 
 要把构建出来的 apk 发布到仓库的 Release，还需要创建一个  [Personal access token](https://github.com/settings/tokens) 提供发布 action 访问和操作代码仓库的权限，注意不要关闭浏览器标签，因为这个 token 只有在第一次创建的时候可见。
 
-![token](./images/flutter-gtihub-token.jpg)
+![token](/images/flutter-gtihub-token.jpg)
 
 5. 添加环境变量
 
 最后为了能在工作流程中创建的 token，需要在仓库的 secrets 里添加一个环境变量 `GITHUB_RElEASE_TOKEN` 来储存 token 值
 
-![secrets](./images/github-secrets.jpg)
+![secrets](/images/github-secrets.jpg)
 
 6. 触发构建
 
@@ -143,7 +143,7 @@ git push --tag
 
 然后就可以在仓库的 Actions 里面看到正在运行的工作流程了
 
-![workflow](./images/github-workflow.jpg)
+![workflow](/images/github-workflow.jpg)
 
 ## 总结
 

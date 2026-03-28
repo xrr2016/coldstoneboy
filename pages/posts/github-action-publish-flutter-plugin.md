@@ -26,7 +26,7 @@ cover: https://cdn.pixabay.com/photo/2020/04/06/13/37/coffee-5009730_960_720.png
 
 首先在插件的 `.github/workflows` 目录内创建一个配置文件 `publish.yml`。
 
-![publish](./images/github-action-publish-flutter-plugin/publish.png)
+![publish](/images/github-action-publish-flutter-plugin/publish.png)
 
 内容如下
 
@@ -54,11 +54,11 @@ jobs:
 
 流程中需要设置 `OAUTH_ACCESS_TOKEN` 和 `OAUTH_REFRESH_TOKEN` 这两个 Token，他们在 `.pub-cache/credentials.json` 的文件内，这个文件是第一次手动发布插件成功后自动生成的，在用户的 home 目录或者是安装 Flutter SDK 目录内。
 
-![credentials](./images/github-action-publish-flutter-plugin/credentials.png)
+![credentials](/images/github-action-publish-flutter-plugin/credentials.png)
 
 拿到 Token 后去插件仓库添加以上两个 Secret，至此配置工作已完成 🎉
 
-![secrets](./images/github-action-publish-flutter-plugin/secrets.png)
+![secrets](/images/github-action-publish-flutter-plugin/secrets.png)
 
 ## 发布插件
 
@@ -70,7 +70,7 @@ git tag v1.0.1
 git push --tags
 ```
 
-![action](./images/github-action-publish-flutter-plugin/action.png)
+![action](/images/github-action-publish-flutter-plugin/action.png)
 
 ## 参考
 

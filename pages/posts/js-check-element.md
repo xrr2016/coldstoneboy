@@ -7,7 +7,7 @@ tags:
   - JS
   - Viewport
 date: 2021-04-13 10:50:51
-cover: ./images/js-check-element/cover.jpg
+cover: /images/js-check-element/cover.jpg
 ---
 
 分享两个监测元素是否在视口内的方法
@@ -68,9 +68,7 @@ const isElementVisible = (el) => {
 
 ## 2. Intersection Observer 
 
-
 > The Intersection Observer API provides a way to asynchronously observe changes in the intersection of a target element with an ancestor element or with a top-level document's [viewport](https://developer.mozilla.org/en-US/docs/Glossary/Viewport).
-
 
 Intersection Observer API提供了一种异步检测目标元素与祖先元素或 [viewport](https://developer.mozilla.org/en-US/docs/Glossary/Viewport) 相交情况变化的方法。在目标元素与视口或者其他指定元素发生交集时和触发配置的回调函数。
 
