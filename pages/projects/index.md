@@ -40,4 +40,11 @@ projects:
         textColor: white
         docs: https://valaxy.site/
         url: https://valaxy.site/zh/
+      - name: AstrBot 
+        desc: AstrBot 是一个开源的一站式 Agentic 个人和群聊助手
+        github: AstrBotDevs/AstrBot
+        color: '#3c96ca'
+        textColor: white
+        docs: https://docs.astrbot.app/
+        url: https://astrbot.app/ 
 ---
