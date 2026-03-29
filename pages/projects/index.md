@@ -7,12 +7,12 @@ projects:
     emoji: 📱
     collection:
       - name: 悠米助手
-        desc: AI 春联
-        color: '#ff4444'
+        desc: 英雄联盟游戏利器
+        color: '#165dff'
         textColor: white
         github: false
         gradient: false
-        url: https://ifdian.net/album/9a44aca6d1bd11ec843d52540025c377
+        url: https://yuumi.coldstoneboy.cn/
 
   open_source:
     title: 参与
