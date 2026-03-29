@@ -13,6 +13,13 @@ projects:
         github: false
         gradient: false
         url: https://yuumi.coldstoneboy.cn/
+      - name: 海斗练习生
+        desc: 海斗大乱斗数据网站
+        color: '#cdbe91'
+        textColor: white
+        github: false
+        gradient: false
+        url: https://hextech.coldstoneboy.cn/  
 
   open_source:
     title: 参与
