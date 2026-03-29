@@ -19,7 +19,15 @@ projects:
         textColor: white
         github: false
         gradient: false
-        url: https://hextech.coldstoneboy.cn/  
+        url: https://hextech.coldstoneboy.cn/
+      - name: BongoCatPlus
+        desc: 跨平台互动桌宠 BongoCat，为桌面增添乐趣！
+        emoji: 🐱
+        color: '#fff'
+        textColor: black
+        github: false
+        gradient: false
+        url: https://bongo.coldstoneboy.cn/    
 
   open_source:
     title: 参与
