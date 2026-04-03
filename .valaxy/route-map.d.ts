@@ -489,6 +489,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/moonbit-build-error/': RouteRecordInfo<
+      '/posts/moonbit-build-error/',
+      '/posts/moonbit-build-error',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/mysql-getting-start': RouteRecordInfo<
       '/posts/mysql-getting-start',
       '/posts/mysql-getting-start',
@@ -979,6 +986,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/lol-summoner-power.md': {
       routes:
         | '/posts/lol-summoner-power'
+      views:
+        | never
+    }
+    'pages/posts/moonbit-build-error/index.md': {
+      routes:
+        | '/posts/moonbit-build-error/'
       views:
         | never
     }

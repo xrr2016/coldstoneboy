@@ -7,7 +7,7 @@ projects:
     emoji: 📱
     collection:
       - name: 悠米助手
-        desc: 英雄联盟游戏利器
+        desc: 专业的英雄联盟游戏辅助工具
         color: '#165dff'
         textColor: white
         github: false
