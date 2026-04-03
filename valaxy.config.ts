@@ -11,9 +11,6 @@ const safelist = [
  * User Config
  */
 export default defineValaxyConfig<UserThemeConfig>({
-  // site config see site.config.ts
-
-
   theme: 'yun',
 
   themeConfig: {
@@ -28,13 +25,15 @@ export default defineValaxyConfig<UserThemeConfig>({
     ],
 
     pages: [
-      { name: '我的项目', url: '/projects/', color: 'var(--va-c-text)', icon: 'i-ri-gallery-view' },
+      { name: '我的项目', url: '/projects/',  icon: 'i-ri-gallery-view' },
     ],
 
     footer: {
       since: 2019,
     },
   },
+
+  features: { katex: false },
 
   addons: [
     addonComponents(),

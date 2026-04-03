@@ -1,6 +1,6 @@
 ---
 title: 解决 Windows 下 MoonBit 构建错误
-cover: /assets/cover.png
+cover: https://coldstoneboy.cn/moonbit.png
 description:
 categories: ["MoonBit"]
 tags: ["MoonBit"]
